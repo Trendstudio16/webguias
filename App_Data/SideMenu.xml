@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  
+  <group Text="Carga Inicial">
+    <item Text="Sucursales" NavigateUrl="sucursales.aspx" />
+    <item Text="Reglas de Transito" NavigateUrl="reglastransito.aspx" />
+    <item Text="Tipos de Envio" NavigateUrl="tiposenvio.aspx" />
+  </group>
+
+  <group Text="Guias">
+    <item Text="Generacion" NavigateUrl="generacion.aspx" />
+    <item Text="Retiro" NavigateUrl="retiro.aspx" />
+    <item Text="Recepcion" NavigateUrl="recepcion.aspx" />
+  </group>
+    
+  <group Text="Reportes">
+    <item Text="Guias Resumido" NavigateUrl="reportGuiasResumido.aspx" />
+    <item Text="Guias Historial" NavigateUrl="reportGuiasHistorial.aspx" />
+  </group>
+  
+  <group Text="Seguridad">
+    <item Text="Usuarios" NavigateUrl="usuarios.aspx" />
+    <item Text="Tipos de Usuario" NavigateUrl="tiposusuario.aspx" />
+    <item Text="Permisos" NavigateUrl="permisos.aspx" />
+  </group>
+
+  <group Text="Sistema">
+    <item Text="Cambiar Contraseña" NavigateUrl="pass.aspx" />
+    <item Text="Salir" NavigateUrl="logout.aspx" />
+  </group>
+  
+</menu>
